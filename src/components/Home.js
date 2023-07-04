@@ -43,8 +43,8 @@ const Home = () => {
                     <div className="card" key={post.id} onClick={()=>{clickHandle(post)}}>
                         <img src={`https://picsum.photos/200?random=${post.id}`} alt={post.title}></img>
                         <p><strong>User ID : </strong> {post.userId}</p>
-                        <p><strong>Title : </strong> {post.title.substring(0,20)}...</p>
-                        <p><strong>Body : </strong> <span>{post.body.substring(0,60)}...</span></p>
+                        <p><strong>Title : </strong> {post.title.length>18?post.title.substring(0,18)+'...':post.title}</p>
+                        <p><strong>Body : </strong> <span>{post.body.length>60?<span>{post.body.substring(0,60)}...<span style={{textDecoration:"underLine"}}>Read more</span></span>:post.body}</span></p>
                     </div>
                 ))
 

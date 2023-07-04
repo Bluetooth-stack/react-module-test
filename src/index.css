@@ -76,11 +76,11 @@ body {
 }
 
 .error{
-  margin: 160px auto;
+  margin: 10rem auto;
   background-color: rgba(255, 20, 20, 0.692);
   box-shadow: 0 0 22px rgba(255, 0, 0, 0.863), 0 0 5px rgba(255, 255, 255, 0.651),0 0 8px rgba(255, 0, 0, 0.61);
   border-radius: 5px;
-  padding: 18px;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -90,14 +90,14 @@ body {
 }
 
 .lost{
-  margin: 180px 10% ;
-  padding: 20px;
+  margin: 11.25rem 10% ;
+  padding: 1.25rem;
 
 }
 
 .lost h1{
   color: rgb(247, 196, 31);
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }
 
 .lost .backButton{
@@ -105,8 +105,8 @@ body {
   text-align: center;
   font-weight: bolder;
   color: rgb(29, 29, 29);
-  margin: 24px auto;
-  padding: 8px 20px;
+  margin: 1.5rem auto;
+  padding: 0.5rem 1.25rem;
   background-color: white;
   cursor: pointer;
   transition: 0.5s ease-out;
